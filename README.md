@@ -16,6 +16,10 @@ curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 sudo apt-get install -y nginx
+
+sudo ./svc.sh install
+
+sudo ./svc.sh start
 ```
 
 -   STEP8 - Install pm2
